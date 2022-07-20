@@ -1,9 +1,15 @@
+import React, { Fragment } from "react";
+import GlobalStyle from "./globalStyles";
+import Footer from "./pages/Footer";
+import Navbar from "./pages/NavBar";
 
 function App() {
   return (
-    <section>
-
-    </section>
+    <Fragment>
+        <GlobalStyle/>
+        <Navbar/>
+        <Footer/>
+    </Fragment>
   );
 }
 
