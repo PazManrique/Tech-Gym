@@ -1,9 +1,6 @@
 import React, { Fragment } from "react";
-<<<<<<< HEAD
-import Carousel from "./components/Carousel";
-=======
 import { BrowserRouter } from "react-router-dom";
->>>>>>> 8b08ed99bfa8f63c0cd15984b286213969e8fefe
+import Carousel from "./components/Carousel";
 import GlobalStyle from "./globalStyles";
 import Footer from "./pages/Footer";
 import Navbar from "./pages/NavBar";
@@ -15,11 +12,8 @@ function App() {
       <BrowserRouter>
         <GlobalStyle/>
         <Navbar/>
-<<<<<<< HEAD
-        <Carousel />
-=======
         <Router/>
->>>>>>> 8b08ed99bfa8f63c0cd15984b286213969e8fefe
+        <Carousel/>
         <Footer/>
         </BrowserRouter>
     </Fragment>
