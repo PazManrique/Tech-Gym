@@ -1,9 +1,10 @@
 import React from "react";
+import { FtStyle } from "../components/FooterStyles";
 
 export default function Footer(){
     return(
-        <footer>
+        <FtStyle>
             <p>Copyright © 2022 Tech Gym Ltda.</p>
-        </footer>
+        </FtStyle>
     )
 }

@@ -1,35 +1,38 @@
 import React from "react";
-import { ContainerBtExp, ContainerExp, ContainerImg, GridSearch, ImgExp, TagsExp, TitleExp } from "./Product-detail.styled";
+import { Link } from "react-router-dom";
+import { ContainerBtExp, ContainerExp, ContainerImg, GridSearch, ImgExp, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
 
 export default function ProductDetail(){
+    return(
     <GridSearch>      
                 {     
-                    info.map ((singleExp, i)=> 
-                        <ContainerExp key={i}>
-                            <Link to={`/${i}/detail`} state={{etiquetaActiva}}> 
+                    // info.map ((singleExp, i)=> 
+                        <ContainerExp key={""}>
+                            <Link to={""} state={""}> 
                                 <ContainerImg>
-                                    <ImgExp src={singleExp.img} alt={singleExp.titulo}/>
-                                    <TitleExp className='titlexp'>{singleExp.titulo}</TitleExp>
+                                    <ImgExp src={""} alt={""}/>
+                                    <TitleExp className='titlexp'>{""}</TitleExp>
                                 </ContainerImg>
                             </Link>
                             
                             <section>
                                 <ContainerBtExp>
-                                    <button className={etiquetaActiva==='Ubicación'?'selectedButton':''}>{singleExp.Ubicacion}</button>
-                                    <button className={etiquetaActiva==='Transporte'?'selectedButton':''}>{singleExp.Transporte}</button>
-                                    <button className={etiquetaActiva==='Duración'?'selectedButton':''}>{singleExp.Duracion}</button>
+                                    <button className={""}></button>
+                                    <button className={""}></button>
+                                    <button className={""}></button>
                                 </ContainerBtExp>
                                 <TagsExp>
                                     <section>
-                                        <h5>{singleExp.id}</h5>
-                                        <p>{singleExp.precio} por persona</p>
+                                        <h5>{""}</h5>
+                                        <p>{""} por persona</p>
                                     </section>
                                     
                                     <Link to='/' className='link'>Reserva ahora</Link>      
                                 </TagsExp>
                             </section>
                         </ContainerExp>
-                    )
+                    // )
                 } 
             </GridSearch>
+    )
 }
