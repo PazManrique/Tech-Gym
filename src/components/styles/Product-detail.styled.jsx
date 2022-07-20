@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {FlexRow} from "../../globalStyles"
 
 export const GridSearch = styled.section`
     display: grid;
