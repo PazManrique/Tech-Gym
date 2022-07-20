@@ -1,4 +1,4 @@
-# Wheels of
+# Tech Gym
 
 
 ## Installation
