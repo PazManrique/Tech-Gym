@@ -91,14 +91,40 @@ export const TagsExp = styled(FlexRow)`
 
 export const ContainerBtExp = styled.section`
     justify-content: space-around;
-    margin: 2em;
     
+    button{
+        width: 6em;
+        border-radius: 2em;
+        border: 0.1em solid var(--font-color-1);
+        background: white;
+        
+    };
+
+   
 `
 
 export const FilterExp = styled.section`
-    justify-content: center;
-    margin: 2em;
-
-  
+    justify-content:space-around;
+    
+    button{
+        width: 6em;
+        border-radius: 2em;
+        border: 0.1em solid var(--font-color-1);
+        background: white;
+        
+    };    
 `
+export const ProductGalleryStyle = styled.section`
+     .btnAtras{
+        color: orange;
 
+
+     }
+
+`
+export const Img = styled.img `
+     width: 100%;
+     height:10%;
+`
+export const Banner = styled.div`
+` ;
