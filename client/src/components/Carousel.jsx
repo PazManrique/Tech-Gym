@@ -1,12 +1,13 @@
 import React from "react";
-import { CarouselStyle } from "./styles/CarouselStyle";
+import { CarouselStyle, ContainCarrousel } from "./styles/CarouselStyle";
 
 
 
 export default function Carousel () {
 
     return (
-      <CarouselStyle> 
+      <CarouselStyle>
+      <ContainCarrousel> 
       <section class="slider">  
       <ul>
      <li> <img
@@ -28,7 +29,8 @@ export default function Carousel () {
           src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZWplcmNpY2lvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
         /></li>
   </ul>
-    </section>  
+    </section> 
+    </ContainCarrousel> 
     </CarouselStyle>);
   
 };

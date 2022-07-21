@@ -1,10 +1,16 @@
 import React from "react";
 import { FlexRow } from "../../globalStyles";
 import { ButtonAdd, ButtonContact, ButtonsDetail, ContainerDescription, ContainerDetail, ContainerImgDetail, ContainerImgPrincipal, ContainerImgSelect, ContainerInfo, ContainerInfoDetail, ImgProduct, ImgSelect, TitleProduct} from "../styles/DetailPageStyle";
+import { ProductGalleryStyle } from "../styles/Product-detail.styled";
+import { Link } from "react-router-dom";
+import { BsArrowLeftSquareFill } from "react-icons/bs";
 
 export default function Description(){
     return(
         <ContainerDetail>
+            <ProductGalleryStyle>
+            <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+        </ProductGalleryStyle>
                 <ContainerImgDetail>
                 <ContainerImgPrincipal>
                     <div>

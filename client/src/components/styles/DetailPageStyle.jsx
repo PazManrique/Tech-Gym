@@ -1,9 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components"; 
 
 export const ContainerDetail = styled.section`
     display: flex;
     justify-content: space-around;
     align-content: center;
+    flex-flow: row wrap;
     paddin: 3vw;
 ` 
 
@@ -41,6 +42,7 @@ export const ContainerInfoDetail = styled.section`
     display:flex;
     justify-content: center;
     flex-direction: column;
+    padding: 1vw;
 `
 export const ContainerInfo = styled.section`
     background: rgba(172, 131, 24, 0.3);

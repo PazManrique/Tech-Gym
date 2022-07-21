@@ -12,11 +12,12 @@ export const CarouselStyle = styled.section `
   display: flex;
   padding: 0%;
   width: 600%;
+  height: 30vw;
   animation: change 20s infinite alternate linear;
 }
 
 .slider li {
-  width: 100%;
+  width: 20%;
   list-style: none;
 }
 
@@ -46,4 +47,8 @@ export const CarouselStyle = styled.section `
  100% {margin-left: -500%;}
 
 }
+  `
+
+  export const ContainCarrousel = styled.section `
+  height: 20vw;
   `
