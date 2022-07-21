@@ -6,4 +6,5 @@ export const FtStyle = styled.footer`
     text-align: center;
     height: 2em;
     color: white;
+    margin: 3vw;
 `

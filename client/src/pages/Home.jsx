@@ -4,7 +4,8 @@ import {
   Categoria,
   ContainerCategoria,
   HomeContainerStyle,
-  ImageImg, 
+  ImageImg,
+  SectionCategories, 
 } from "../components/styles/Home.styled";
 import {Link} from "react-router-dom"
 
@@ -15,6 +16,7 @@ export default function Home() {
       <section>
         <Carousel />
       </section>
+      <SectionCategories>
       <section className="categorias">
         <Link to="BodyCombatCatalogo"> 
           <Categoria>
@@ -75,6 +77,7 @@ export default function Home() {
           </Categoria>
         </Link>
       </section>
+      </SectionCategories>
     </HomeContainerStyle>
   )
 }

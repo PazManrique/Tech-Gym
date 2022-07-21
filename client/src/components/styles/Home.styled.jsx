@@ -2,27 +2,25 @@ import styled from "styled-components";
 
 export const HomeContainerStyle = styled.section`
 display: flex;
-flex-wrap:wrap;
-padding: 5%;  
-margin: 5%;
+flex-wrap:wrap; 
 `
-export const Categoria = styled.section `
+export const SectionCategories = styled.section `
 display: flex;
 justify-content:space-around;
+flex-flow: row wrap;
 padding: 5%;
+
+`;
+
+export const Categoria = styled.section `
+
 /* background-color: red; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-width: 30em;
-height: 15em;
-/* &:hover{
-
-background-color: blue;
-
-
-} */
+width: 20em;
+height: 12em;
 
 `;
 export const ContainerCategoria = styled.div `
@@ -34,15 +32,13 @@ export const ContainerCategoria = styled.div `
     transform: translate(-50%, -50%);
     color:#f5be30;
 
-   
-    
 `;
 
 
 export const TextCategoria = styled.h3 `
-position: absolute;
-top: 99%;
-left:99%;
+display: flex;
+justify-content: center;
+align-items: centeR;
 
     color:#f5be30;
     
@@ -50,7 +46,7 @@ left:99%;
 `
 export const ImageImg = styled.img`
 display: flex;
-width:30em;
-height:20em;
-margin: 10%;
+width:25em;
+height:12em;
+padding: 1% 1% 1% 1%;
 `;

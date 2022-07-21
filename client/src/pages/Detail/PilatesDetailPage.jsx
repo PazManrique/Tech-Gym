@@ -4,6 +4,8 @@ import { FlexRow } from "../../globalStyles";
 import { ContainerImgOtherProducts, ContainerOtherProducts, ImgOtherProducts, TitleOtherProducts, ButtonAdd, ButtonContact, ButtonsDetail, ContainerDescription, ContainerDetail, ContainerImgDetail, ContainerImgPrincipal, ContainerImgSelect, ContainerInfo, ContainerInfoDetail, ImgProduct, ImgSelect, TitleProduct} from "../../components/styles/DetailPageStyle.jsx";
 import Getinfo from "../../services/Getinfo.jsx";
 import { ReadMore } from "../../components/Product-detail/ReadMore.jsx"
+import { BsArrowLeftSquareFill } from "react-icons/bs";
+import { ProductGalleryStyle } from "../../components/styles/ProductGallery.styled.jsx";
 
 export default function PilatesDetailPage(){
    /*const {id} = useParams();
@@ -24,6 +26,9 @@ export default function PilatesDetailPage(){
     return(
         <section>
             <ContainerDetail>
+                <ProductGalleryStyle>
+                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>
                         <div>
