@@ -5,12 +5,27 @@ export default function Description(){
         <section>
             <section>
                 <section>
-                    <div></div>
+                    <div>
+                        <img
+        src=""
+      />
+                    </div>
                 </section>
                 <section>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div>
+                    <img
+        src=""
+      />
+                    </div>
+                    <div><img
+        src=""
+      />
+                    </div>
+                    <div>
+                    <img
+        src=""
+      />
+                    </div>
                 </section>
             </section>
             <section>
