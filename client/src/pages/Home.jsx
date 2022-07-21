@@ -1,43 +1,32 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Carousel from "../components/Carousel";
 import {
   Categoria,
   ContainerCategoria,
   HomeContainerStyle,
-  ImageImg,
-  
+  ImageImg, 
 } from "../components/styles/Home.styled";
 import {Link} from "react-router-dom"
-import Getinfo from '../services/Getinfo'
+
 
 export default function Home() {
-  const [info, setInfo] = useState([])
-
-  useEffect(()=>{
-    Getinfo()
-      .then(data =>{
-        console.log(data)
-        setInfo(data)
-      })
-  }, [])
-
   return (
     <HomeContainerStyle>
       <section>
         <Carousel />
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="BodyCombatCatalogo"> 
           <Categoria>
             <ContainerCategoria>
-              <h3>BodyCombat</h3>
+              <h3>Body Combat</h3>
               <ImageImg src="https://images.unsplash.com/photo-1470468969717-61d5d54fd036?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVwb3J0ZSUyMGRlJTIwZnVlcnphfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=600&q=60" alt="imatge" />
             </ContainerCategoria>
           </Categoria>
         </Link>
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="PilatesCatalogo"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Pilates</h3>
@@ -47,7 +36,7 @@ export default function Home() {
         </Link>
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="YogaGallery"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Yoga</h3>
@@ -57,17 +46,17 @@ export default function Home() {
         </Link>
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="MeditacionGallery"> 
           <Categoria>
             <ContainerCategoria>
-              <h3>Meditacion</h3>
+              <h3>Meditación</h3>
               <ImageImg src="https://images.unsplash.com/photo-1531986733711-de47444e8cd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWVkaXRhY2lvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60" alt="imatge" />
             </ContainerCategoria>
           </Categoria>
         </Link>
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="ResistenciaGallery"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Resistencia</h3>
@@ -77,7 +66,7 @@ export default function Home() {
         </Link>
       </section>
       <section className="categorias">
-        <Link to={`/Catalogo/${info}`}> 
+        <Link to="/CardioCatalogo"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Cardio</h3>
@@ -87,5 +76,5 @@ export default function Home() {
         </Link>
       </section>
     </HomeContainerStyle>
-  );
+  )
 }

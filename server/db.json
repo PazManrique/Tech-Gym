@@ -1,10 +1,8 @@
-{"tipo":
-    [
-        {"yoga":
+{       
+    "yoga":
             [
                 {
                     "id": 1,
-                    "categoría":"Yoga",
                     "título":"Hatha Yoga.",
                     "instructor":"Giaco Corso.",
                     "fecha":"Lu. y Vi.",
@@ -38,8 +36,8 @@
                     "descripción":"Clase de yoga intermedia, que te permitirá realizarla a tu ritmo, en el horario que desees, las veces que quieras. No te olvides de preparar un ambiente propicio en el hogar, sin distracciones. Te recomendamos apagar el móvil durante las clases, así como  tener una botella de agua, una colchoneta y una toalla a mano.",
                     "img":"https://images.unsplash.com/photo-1566501206188-5dd0cf160a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8eW9nYXxlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60"
                 }
-            ]},
-        {"bodyCombar":
+            ],
+        "bodyCombat":
             [
                 {
                     "id": 4,
@@ -77,8 +75,8 @@
                     "descripción":"Clase de Body Combat para principiantes, que te permitirá ejercitar tanto el cuerpo como la mente. No te olvides de traer tu botella de agua, así como una colchoneta y una toalla. Se requerirá que se apaguen los móviles durante las clases.",
                     "img":"https://images.unsplash.com/photo-1591258370814-01609b341790?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGVwb3J0ZSUyMGRlJTIwZnVlcnphfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=600&q=60"
                 }
-            ]},
-        {"pilates":
+            ],
+        "pilates":
             [
                 {
                     "id": 7,
@@ -116,8 +114,8 @@
                     "descripción":"Clase de pilates intermedia, que te permitirá realizarla a tu ritmo, en el horario que desees, las veces que quieras. No te olvides de preparar un ambiente propicio en el hogar, sin distracciones. Te recomendamos apagar el móvil durante las clases, así como  tener una botella de agua, una colchoneta y una toalla a mano.",
                     "img":"https://images.unsplash.com/photo-1599447292180-45fd84092ef0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGlsYXRlc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=600&q=60"
                 }
-            ]}, 
-        {"cardio":
+            ], 
+        "cardio":
             [
                 {
                     "id": 10,
@@ -155,8 +153,8 @@
                     "descripción":"Clase de cardio para principiantes, que te permitirá ejercitar tanto el cuerpo como la mente. No te olvides de traer tu botella de agua, así como una colchoneta y una toalla. Se requerirá que se apaguen los móviles durante las clases.",
                     "img":"https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyZGlvfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=600&q=60"
                 }
-            ]},   
-        {"meditacion":
+            ],   
+        "meditacion":
             [
                 {
                     "id": 13,
@@ -195,8 +193,8 @@
                     "img": 
                     "https://images.unsplash.com/photo-1538024333176-f25f63f873ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVkaXRhY2lvbiUyMGNvbiUyMHZlbGFzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=600&q=60"
                 }
-            ]},
-            {"resistencia":
+            ],
+        "resistencia":
                 [
                     {
                         "id": 16,
@@ -234,6 +232,5 @@
                         "descripción":"Clase de resistencia para principiantes, que te permitirá ejercitar tanto el cuerpo como la mente. No te olvides de traer tu botella de agua, así como una colchoneta y una toalla. Se requerirá que se apaguen los móviles durante las clases.",
                         "img":"https://images.unsplash.com/photo-1560073742-bc295f81c3c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVwb3J0ZSUyMGRlJTIwcmVzaXN0ZW5jaWF8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60"
                     }
-                ]}
-    ]
+                ]
 }
