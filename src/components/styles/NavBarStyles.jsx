@@ -16,4 +16,9 @@ export const NavStyle = styled(FlexRow)`
     input{
     width: 20em;
     }
+
+    button {
+        background: none;
+        border: none;
+    }
 `
