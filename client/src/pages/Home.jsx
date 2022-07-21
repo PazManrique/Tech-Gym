@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Carousel from '../components/Carousel'
-import { Categoria, ContainerCategoria, HomeContainerStyle, Img, TextCategoria } from '../components/styles/Home.styled'
+import { Categoria, ContainerCategoria, HomeContainerStyle } from '../components/styles/Home.styled'
 import {Link} from "react-router-dom"
 import Getinfo from '../services/Getinfo'
 
@@ -21,7 +21,7 @@ export default function Home() {
       <Carousel/>
       </section>
       <section className="categorias">
-      <Link to={`/${info}/detail`}> 
+      <Link to={`/Catalogo/${info.yoga}`}> 
         <Categoria>
             <ContainerCategoria>
               <h3>Yoga</h3>
