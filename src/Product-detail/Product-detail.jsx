@@ -17,17 +17,13 @@ export default function ProductDetail(){
                             
                             <section>
                                 <ContainerBtExp>
-                                    <button className={""}></button>
-                                    <button className={""}></button>
-                                    <button className={""}></button>
+                                    <button className={""}>Instuctor</button>
+                                    <button className={""}>Fecha</button>
+                                    <button className={""}>Horario</button>
                                 </ContainerBtExp>
                                 <TagsExp>
-                                    <section>
-                                        <h5>{""}</h5>
-                                        <p>{""} por persona</p>
-                                    </section>
-                                    
-                                    <Link to='/' className='link'>Reserva ahora</Link>      
+                                <button className={""}>Modalidad</button>
+                                    <button className={""}>Precio</button>
                                 </TagsExp>
                             </section>
                         </ContainerExp>
