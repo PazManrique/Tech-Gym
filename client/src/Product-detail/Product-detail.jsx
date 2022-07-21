@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useParams } from "react";
 import { Link } from "react-router-dom";
-import { ContainerBtExp, ContainerExp, ContainerImg, GridSearch, ImgExp, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
 import Getinfo from "../services/Getinfo";
+import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
+import { BsArrowLeftSquareFill } from "react-icons/bs";
 
 export default function ProductDetail(){
     const {id} = useParams();
@@ -18,8 +19,12 @@ export default function ProductDetail(){
     }, [])
 
     if (loading) return <section>Cargando...</section>
-
-    return(
+        return(
+            <ProductGalleryStyle>
+                <Link className="btnAtras" to="/"><BsArrowLeftSquareFill/></Link>
+            <Banner>
+            <Img src={""} alt={""} />
+            </Banner>
         <GridSearch>      
                 {     
                     info.map ((singleAct, i)=> 
@@ -46,5 +51,6 @@ export default function ProductDetail(){
                     )
                 } 
         </GridSearch>
+        </ProductGalleryStyle>
     )
 }
