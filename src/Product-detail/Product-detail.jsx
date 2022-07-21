@@ -1,10 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ContainerBtExp, ContainerExp, ContainerImg, GridSearch, ImgExp, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
-
+import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
+import { BsArrowLeftSquareFill } from "react-icons/bs";
 export default function ProductDetail(){
     return(
-    <GridSearch>      
+        <ProductGalleryStyle>
+            <Link className="btnAtras" to="/"><BsArrowLeftSquareFill/></Link>
+        <Banner>
+        <Img src={""} alt={""} />
+        </Banner>
+    <GridSearch>     
+        
                 {     
                     // info.map ((singleExp, i)=> 
                         <ContainerExp key={""}>
@@ -21,14 +27,15 @@ export default function ProductDetail(){
                                     <button className={""}>Fecha</button>
                                     <button className={""}>Horario</button>
                                 </ContainerBtExp>
-                                <TagsExp>
+                                <ContainerBtExp>
                                 <button className={""}>Modalidad</button>
                                     <button className={""}>Precio</button>
-                                </TagsExp>
+                                </ContainerBtExp>
                             </section>
                         </ContainerExp>
                     // )
                 } 
             </GridSearch>
+            </ProductGalleryStyle>
     )
 }

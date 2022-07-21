@@ -5,4 +5,5 @@ export const FtStyle = styled.footer`
     line-height: 1.8em;
     text-align: center;
     height: 2em;
+    color: white;
 `

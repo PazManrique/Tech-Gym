@@ -13,7 +13,6 @@ function App() {
         <GlobalStyle/>
         <Navbar/>
         <Router/>
-        <Carousel/>
         <Footer/>
         </BrowserRouter>
     </Fragment>
