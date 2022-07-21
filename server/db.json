@@ -14,7 +14,6 @@
                 },
                 {
                     "id": 2,
-                    "categoría":"Yoga",
                     "título":"Yoga kundalini.",
                     "instructor":"Guillaume Thureau.",
                     "fecha":"Lu. y Vi.",
@@ -26,7 +25,6 @@
                 },
                 {
                     "id": 3,
-                    "categoría":"Yoga",
                     "título":"Yoga vinyasa.",
                     "instructor":"Sergi Virgili.",
                     "fecha":"Lu. y Vi.",
@@ -41,7 +39,6 @@
             [
                 {
                     "id": 4,
-                    "categoría":"Body Combat.",
                     "título":"Body Combat nivel intermedio.",
                     "instructor":"Noelia Torres.",
                     "fecha":"Ma. y jue.",
@@ -53,7 +50,6 @@
                 },  
                 {
                     "id": 5,
-                    "categoría":"Body Combat.",
                     "título":"Combat Intensive.",
                     "instructor":"Marta Sastre Haro.",
                     "fecha":"Lu. y Mie.",
@@ -65,7 +61,6 @@
                 },   
                 {
                     "id": 6,
-                    "categoría":"Body Combat.",
                     "título":"Combat light.",
                     "instructor":"Carlos Pinilla.",
                     "fecha":"Mie. y Vie.",
@@ -80,7 +75,6 @@
             [
                 {
                     "id": 7,
-                    "categoría": "Pilates.",
                     "título":"Pilates en colchoneta.",
                     "instructor":"Emilio Lezama.",
                     "fecha":"Mie. y Vie.",
@@ -92,7 +86,6 @@
                 },   
                 {
                     "id": 8,
-                    "categoría":"Pilates.",
                     "título":"Pilates con Máquina.",
                     "instructor":"Carla Álvarez.",
                     "fecha":"Lu. a Mie.",
@@ -104,7 +97,6 @@
                 },
                 {
                     "id": 9,
-                    "categoría":"Pilates.",
                     "título":"Pilates intermedio.",
                     "instructor":"Rebeca Rodríguez.",
                     "fecha":"Ma. y Jue.",
@@ -119,7 +111,6 @@
             [
                 {
                     "id": 10,
-                    "categoría":"Cardio.",
                     "título":"Cardio para nivel intermedio.",
                     "instructor":"Noelia Torres.",
                     "fecha":"Lu. y Vi.",
@@ -131,7 +122,6 @@
                 }, 
                 {
                     "id": 11,
-                    "categoría": "Cardio.",
                     "título":"Cardio Bomb.",
                     "instructor":"Antía González.",
                     "fecha":"Ma. y Jue.",
@@ -143,7 +133,6 @@
                 },   
                 {
                     "id": 12,
-                    "categoría":"Cardio.",
                     "título":"Cardio Light.",
                         "instructor":"Carla Álvarez.",
                     "fecha":"Ma. y Jue.",
@@ -158,7 +147,6 @@
             [
                 {
                     "id": 13,
-                    "categoría":"Meditación.",
                     "título":"Meditación intermedia.",
                     "instructor":"Ali Siam.",
                     "fecha":"Lu. y Vi.",
@@ -170,7 +158,6 @@
                 },  
                 {
                     "id": 14,
-                    "categoría": "Meditación.",
                     "título":"Meditación con cuencos.",
                     "instructor":"Mohamed Aberkani.",
                     "fecha":"Mie. y Vie.",
@@ -182,7 +169,6 @@
                 },  
                 {
                     "id": 15,
-                    "categoría":"Meditación.",
                     "título":"Meditación con velas.",
                     "instructor":"Isabel Mercier.",
                     "fecha":"Ma. y Jue.",
@@ -198,7 +184,6 @@
                 [
                     {
                         "id": 16,
-                        "categoría":"Resistencia.",
                         "título":"Resistencia nivel intermedio.",
                         "instructor":"Ana Aguilar.",
                         "fecha":"Lu. y Vi.",
@@ -210,7 +195,6 @@
                     },   
                     {
                         "id": 17,
-                        "categoría": "Resistencia.",
                         "título":"Resistencia Expert.",
                         "instructor":"David Picó.",
                         "fecha":"Lu. y Mie.",
@@ -222,7 +206,6 @@
                     }, 
                     {
                         "id": 18,
-                        "categoría":"Resistencia.",
                         "título":"Iniciación.",
                         "instructor":"Cristina Fernández.",
                         "fecha":"Mie. y Vie.",

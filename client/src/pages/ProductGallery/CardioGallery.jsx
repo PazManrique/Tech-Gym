@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import Getinfo from "../../services/Getinfo.jsx";
-import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TitleExp } from "../../components/styles/Product-detail.styled";
+import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TitleExp } from "../../components/styles/ProductGallery.styled.jsx";
 import { BsArrowLeftSquareFill } from "react-icons/bs";
 
 export default function CardioGallery() {
@@ -29,7 +29,7 @@ export default function CardioGallery() {
                 {     
                     info.map ((singleAct, i)=> 
                         <ContainerExp key={i}>
-                            <Link to={`/DetalleProducto/${i}`}>
+                            <Link to={`/CardioDetail/${i}`}>
                                 <ContainerImg>
                                     <ImgExp src={singleAct.img} alt={singleAct.título}/>
                                     <TitleExp className='titlexp'>{singleAct.título}</TitleExp>

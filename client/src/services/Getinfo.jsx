@@ -47,11 +47,11 @@ const Getinfo= {
     },
 
     async getResistencia(){  
-        const result = await axios.get (process.env.REACT_APP_API_URL+"/yoga")
+        const result = await axios.get (process.env.REACT_APP_API_URL+"/resistencia")
         return result.data    
     },   
     async getOneResistencia(){
-        const result = await axios.get (process.env.REACT_APP_API_URL+"/yoga/:id")
+        const result = await axios.get (process.env.REACT_APP_API_URL+"/resistencia/:id")
         return result.data 
     }
 }

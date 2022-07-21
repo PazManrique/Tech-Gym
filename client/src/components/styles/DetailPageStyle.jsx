@@ -4,7 +4,7 @@ export const ContainerDetail = styled.section`
     display: flex;
     justify-content: space-around;
     align-content: center;
-    paddin: 3vw;
+    padding: 3vw;
 ` 
 
 export const ContainerImgDetail = styled.section`
@@ -44,7 +44,7 @@ export const ContainerInfoDetail = styled.section`
 `
 export const ContainerInfo = styled.section`
     background: rgba(172, 131, 24, 0.3);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 3%;
     padding-bottom:5%;
     width: 40vw;
@@ -64,14 +64,14 @@ export const TitleProduct = styled.h2`
 export const ContainerOtherProducts = styled.section`
     display: flex;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     flex-direction: column;
     margin: 2vw;
 `
 export const ButtonsDetail = styled.section`
     display: flex;
     justify-content: space-between;
-    align-item: center;
+    align-items: center;
     margin-top: 1vw;
 `
 export const ButtonAdd = styled.button`
@@ -82,7 +82,7 @@ export const ButtonAdd = styled.button`
     top: 1118px;
     border:none;
     color: white;
-    front-weight: bold;
+    font-weight: bold;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 23.5052px;
 `
@@ -95,7 +95,7 @@ export const ButtonContact = styled.button`
     left: 1758px;
     top: 1118px;
     color: white;
-    front-weight: bold;
+    font-weight: bold;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 23.5052px;
 `
@@ -103,7 +103,7 @@ export const ButtonContact = styled.button`
 export const ContainerImgOtherProducts = styled.section`
     display: flex;
     justify-content: center;
-    align-item: center;
+    align-items: center;
     flex-flow: row wrap;
 ` 
 
@@ -117,3 +117,7 @@ export const ImgOtherProducts = styled.img `
     margin: 1vw;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 ` 
+export const ReadMoreDetail = styled.span`
+    color: var(--font-color-1);
+    cursor: pointer;
+`

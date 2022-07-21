@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from "react";
 import { Link } from "react-router-dom";
 import Getinfo from "../../services/Getinfo.jsx";
-import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TitleExp } from "../../components/styles/Product-detail.styled";
+import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TitleExp } from "../../components/styles/ProductGallery.styled";
 import { BsArrowLeftSquareFill } from "react-icons/bs";
 
 export default function MeditacionGallery() {
@@ -29,7 +29,7 @@ export default function MeditacionGallery() {
                 {     
                     info.map ((singleAct, i)=> 
                         <ContainerExp key={i}>
-                            <Link to={`/DetalleProducto/${i}`}>
+                            <Link to={`/MeditacionDetail/${i}`}>
                                 <ContainerImg>
                                     <ImgExp src={singleAct.img} alt={singleAct.título}/>
                                     <TitleExp className='titlexp'>{singleAct.título}</TitleExp>
