@@ -1,13 +1,6 @@
 import styled from 'styled-components'
+import {FlexRow} from "../../globalStyles"
 
-/*--- Global ---*/ 
-export const FlexRow = styled.section`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-`
-
-/*--- Navbar ---*/
 export const NavStyle = styled(FlexRow)`
     background-color: var(--bg-nav);
     padding: 0.1em;
@@ -20,6 +13,4 @@ export const NavStyle = styled(FlexRow)`
     input{
     width: 20em;
     }
-   
 `
-

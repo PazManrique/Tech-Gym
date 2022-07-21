@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/logo.png"
 import {BsCartFill} from 'react-icons/bs';
 import { IconContext } from 'react-icons';
-import { NavStyle } from "../components/styles/Styles";
+import { NavStyle } from "../components/styles/NavBarStyles";
 
 export default function Navbar(){
     return(
