@@ -14,10 +14,11 @@ export default function ProductDetail(){
         Getinfo()
             .then(data =>{
                 setInfo(data[id])
+
                 setLoading(false)
             })
     }, [])
-
+    console.log(info)
     if (loading) return <section>Cargando...</section>
         return(
             <ProductGalleryStyle>
