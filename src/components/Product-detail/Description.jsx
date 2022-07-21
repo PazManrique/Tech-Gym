@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import { FlexRow } from "../../globalStyles";
 import { ButtonAdd, ButtonContact, ButtonsDetail, ContainerDescription, ContainerDetail, ContainerImgDetail, ContainerImgPrincipal, ContainerImgSelect, ContainerInfo, ContainerInfoDetail, ImgProduct, ImgSelect, TitleProduct} from "../styles/DetailPageStyle";
 import { BsArrowLeftSquareFill } from "react-icons/bs";
-import { ContainBack } from "../styles/Product-detail.styled";
+import { ProductGalleryStyle } from "../styles/Product-detail.styled";
 
 export default function Description(){
     return(
         <ContainerDetail>
-            <ContainBack>
-            <Link className="btnAtras" to="/"><BsArrowLeftSquareFill/></Link>
-            </ContainBack>
+            <ProductGalleryStyle>
+            <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+            </ProductGalleryStyle>
                 <ContainerImgDetail>
                 <ContainerImgPrincipal>
                     <div>

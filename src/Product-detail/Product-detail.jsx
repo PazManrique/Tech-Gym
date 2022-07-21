@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Banner, ContainBack, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
+import { Banner, ContainerBtExp, ContainerExp, ContainerImg, GridSearch, Img, ImgExp, ProductGalleryStyle, TagsExp, TitleExp } from "../components/styles/Product-detail.styled";
 import { BsArrowLeftSquareFill } from "react-icons/bs";
 export default function ProductDetail(){
     return(
         <ProductGalleryStyle>
-            <ContainBack>
             <Link className="btnAtras" to="/"><BsArrowLeftSquareFill/></Link>
-            </ContainBack>
         <Banner>
         <Img src={""} alt={""} />
         </Banner>
