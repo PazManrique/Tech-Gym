@@ -1,5 +1,5 @@
 import React from "react";
-import { FtStyle } from "../components/FooterStyles";
+import { FtStyle } from "../components/styles/FooterStyles";
 
 export default function Footer(){
     return(
