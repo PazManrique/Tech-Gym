@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import { BrowserRouter } from "react-router-dom";
-import LoginForm from "./components/contactForm/Form";
 import GlobalStyle from "./globalStyles";
 import Footer from "./pages/Footer";
 import Navbar from "./pages/NavBar";
@@ -12,10 +11,9 @@ function App() {
       <BrowserRouter>
         <GlobalStyle/>
         <Navbar/>
-        <LoginForm/>
         <Router/>
         <Footer/>
-        </BrowserRouter>
+      </BrowserRouter>
     </Fragment>
   );
 }

@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom"
+import { BtnForm, FormStyle } from "../styles/FormStyles";
 
-export default function ContactForm(){
+export default function ContactFormStyle(){
     return(
-        <section>
-            <form onClick={""}>
-                <section>
+            <FormStyle onClick={""}>
+                <section className="info">
                     <label htmlFor="name">Nombre del alumno:</label>
                     <input 
                     id="name"
@@ -15,18 +15,17 @@ export default function ContactForm(){
                     />
                 </section>    
                 
-                <section>
+                <section className="info">
                     <label htmlFor="message">Escribe aquí tu mensaje para que lo lea el profesor:</label>
-                    <textarea id="message" name="message" rows="5" cols="50">Describe brevemente el tu motivo de consulta que se lo haremos 
-                    llegar al profesor.</textarea>
+                    <textarea id="message" name="message" rows="5" cols="50" placeholder="Describe brevemente el tu motivo de consulta que se lo haremos 
+                    llegar al profesor."></textarea>
                 </section>
 
-                <section>
-                    <button type="reset">Resetear</button>
-                    <button><Link to="/">Cancelar</Link></button>
-                    <button type="submit">Enviar</button>
-                </section>
-            </form>
-        </section>
+                <BtnForm className="btns">
+                    <button type="reset" className="bt1">Resetear</button>
+                    <button className="bt2"><Link to="/" className="link">Cancelar</Link></button>
+                    <button type="submit" className="bt3">Enviar</button>
+                </BtnForm>
+            </FormStyle>
     )
 }
