@@ -4,7 +4,7 @@ export const ContainerDetail = styled.section`
     display: flex;
     justify-content: space-around;
     align-content: center;
-    paddin: 3vw;
+    padding: 1vw;
 ` 
 
 export const ContainerImgDetail = styled.section`

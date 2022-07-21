@@ -122,6 +122,10 @@ export const ProductGalleryStyle = styled.section`
      }
 
 `
+export const ContainBack = styled.div`
+    display:flex;
+    justify-content:flex-end;
+`
 export const Img = styled.img `
      width: 100%;
      height:10%;
