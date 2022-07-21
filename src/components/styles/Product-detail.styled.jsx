@@ -69,7 +69,7 @@ export const ContainerExp = styled.section`
 `
 
 export const TagsExp = styled(FlexRow)`
-    justify-content: space-between;
+    justify-content: space-around;
 
     h5{
         color: var(--font-color-1)
@@ -90,37 +90,15 @@ export const TagsExp = styled(FlexRow)`
 `
 
 export const ContainerBtExp = styled.section`
-    display: flex;
-    gap: 0.5em;
+    justify-content: space-around;
+    margin: 2em;
     
-    button{
-        width: 6em;
-        border-radius: 2em;
-        border: 0.1em solid var(--font-color-1);
-        background: white;
-        color: var(--font-color-1);
-    };
-
-    button.selectedButton{
-        border: 0.2em solid var(--font-color-read);;
-        color: var(--font-color-read);
-        font-weight: bold;
-    }
 `
 
-export const FilterExp = styled(FlexRow)`
+export const FilterExp = styled.section`
     justify-content: center;
     margin: 2em;
 
-    .link{
-        color: var(--font-color-3);
-        text-decoration: none;
-
-        &:hover{
-            opacity: 0.5;
-            text-decoration: underline  0.1em;
-            text-underline-offset: 0.5em;
-        }
-    }
+  
 `
 
