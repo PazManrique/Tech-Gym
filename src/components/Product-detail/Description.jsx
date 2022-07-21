@@ -1,50 +1,49 @@
 import React from "react";
+import { FlexRow } from "../../globalStyles";
+import { ButtonAdd, ButtonContact, ButtonsDetail, ContainerDescription, ContainerDetail, ContainerImgDetail, ContainerImgPrincipal, ContainerImgSelect, ContainerInfo, ContainerInfoDetail, ImgProduct, ImgSelect, TitleProduct} from "../styles/DetailPageStyle";
 
 export default function Description(){
     return(
-        <section>
-            <section>
-                <section>
+        <ContainerDetail>
+                <ContainerImgDetail>
+                <ContainerImgPrincipal>
                     <div>
-                        <img
-        src=""
-      />
+                    <ImgProduct src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWplcmNpY2lvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
                     </div>
-                </section>
-                <section>
+                </ContainerImgPrincipal>
+                <ContainerImgSelect>
+                <FlexRow>
                     <div>
-                    <img
-        src=""
-      />
-                    </div>
-                    <div><img
-        src=""
-      />
+                    <ImgSelect src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWplcmNpY2lvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
                     </div>
                     <div>
-                    <img
-        src=""
-      />
+                        <ImgSelect src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWplcmNpY2lvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
                     </div>
-                </section>
-            </section>
-            <section>
-                <section>
-                    <h2></h2>
                     <div>
+                    <ImgSelect src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZWplcmNpY2lvfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=600&q=60" />
+                    </div>
+                    </FlexRow>
+                </ContainerImgSelect>
+                </ContainerImgDetail>
+            
+            <ContainerInfoDetail>
+                <ContainerInfo>
+                    <TitleProduct>YOGA</TitleProduct>
+                    <ContainerDescription>
                         <p>
-                            <h4>Descripción:</h4>
+                        <h4>Description:</h4>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
                         </p>
                         <p>
-                            <h4>Precio:</h4>
+                            <h4>Precio: 10€</h4>
                         </p>
-                    </div>
-                </section>
-                <section>
-                    <button>Contactar</button>
-                    <button>Añadir</button>
-                </section>
-            </section>
-        </section>
+                    </ContainerDescription>
+                </ContainerInfo>
+                <ButtonsDetail>
+                    <ButtonContact>Contactar</ButtonContact>
+                    <ButtonAdd>Añadir</ButtonAdd>
+                </ButtonsDetail>
+                </ContainerInfoDetail>
+        </ContainerDetail>
     )
 }
