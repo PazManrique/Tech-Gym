@@ -28,7 +28,7 @@ export default function YogaDetailPage(){
         <section>
             <ContainerDetail>
                 <ProductGalleryStyle>
-                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                    <Link className="btnAtras" to="/YogaGallery"><BsArrowLeftSquareFill/></Link>
                 </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>

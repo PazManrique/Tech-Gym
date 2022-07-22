@@ -27,7 +27,7 @@ export default function PilatesDetailPage(){
         <section>
             <ContainerDetail>
                 <ProductGalleryStyle>
-                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                    <Link className="btnAtras" to="/PilatesGallery"><BsArrowLeftSquareFill/></Link>
                 </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>

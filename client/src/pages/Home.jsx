@@ -18,7 +18,7 @@ export default function Home() {
       </section>
       <SectionCategories>
       <section className="categorias">
-        <Link to="BodyCombatCatalogo"> 
+        <Link to="BodyCombatGallery"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Body Combat</h3>
@@ -28,7 +28,7 @@ export default function Home() {
         </Link>
       </section>
       <section className="categorias">
-        <Link to="PilatesCatalogo"> 
+        <Link to="PilatesGallery"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Pilates</h3>
@@ -68,7 +68,7 @@ export default function Home() {
         </Link>
       </section>
       <section className="categorias">
-        <Link to="/CardioCatalogo"> 
+        <Link to="/CardioGallery"> 
           <Categoria>
             <ContainerCategoria>
               <h3>Cardio</h3>

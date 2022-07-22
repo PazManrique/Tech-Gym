@@ -28,7 +28,7 @@ export default function BodyCombatDetailPage(){
         <section>
             <ContainerDetail>
                 <ProductGalleryStyle>
-                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                    <Link className="btnAtras" to="/BodyCombatGallery"><BsArrowLeftSquareFill/></Link>
                 </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>

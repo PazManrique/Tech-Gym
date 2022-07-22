@@ -28,7 +28,7 @@ export default function ResistenciaDetailPage(){
         <section>
             <ContainerDetail>
                 <ProductGalleryStyle>
-                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                    <Link className="btnAtras" to="/ResistenciaGallery"><BsArrowLeftSquareFill/></Link>
                 </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>

@@ -28,7 +28,7 @@ export default function CardioDetailPage(){
         <section>
             <ContainerDetail>
                 <ProductGalleryStyle>
-                    <Link className="btnAtras" to="/Catalogo"><BsArrowLeftSquareFill/></Link>
+                    <Link className="btnAtras" to="/CardioGallery"><BsArrowLeftSquareFill/></Link>
                 </ProductGalleryStyle>
                     <ContainerImgDetail>
                     <ContainerImgPrincipal>

@@ -18,9 +18,9 @@ export default function Router() {
     return(
         <Routes>
             <Route path= "/" exact element ={<Home/>}/>
-            <Route path= "/BodyCombatCatalogo" exact element ={<BodyCombatGallery />}/>
-            <Route path= "/PilatesCatalogo" exact element ={<PilatesGallery />}/>
-            <Route path= "/CardioCatalogo" exact element ={<CardioGallery />}/>
+            <Route path= "/BodyCombatGallery" exact element ={<BodyCombatGallery />}/>
+            <Route path= "/PilatesGallery" exact element ={<PilatesGallery />}/>
+            <Route path= "/CardioGallery" exact element ={<CardioGallery />}/>
             <Route path= "/MeditacionGallery" exact element ={<MeditacionGallery />}/>
             <Route path= "/ResistenciaGallery" exact element ={<ResistenciaGallery />}/>
             <Route path= "/YogaGallery" exact element ={<YogaGallery />}/>
