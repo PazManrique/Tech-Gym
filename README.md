@@ -1,21 +1,31 @@
-## 💻 Tech Gym 
+## Tabla de Contenidos:
+1. [Logo](#tech-gym)
+2. [Introducción](#introducción)
+3. [Prototipo del proyecto](#prototipo-del-proyecto)
+4. [Tecnologías utilizadas en el proyecto](#tecnologías-utilizadas-en-el-proyecto)
+5. [Instalación](#instalación)
+6. [Personas autoras](#personas-autoras)
+
+## 💻 Tech Gym:
 
 ![Logo](client/src/assets/logo.png)
     
-## 💠 Introducción
+## 💠 Introducción:
 
-<p>Tech Gym es una plataforma para reservas de diferentes tipos de clases a precios asequibles con una variedad de modalidades, relacionadas al ámbito deportivo. Esta fue diseñada pensando en aquellos coders que buscan posibilidades u opciones de agregar algún tipo de actividad física o mental en sus vidas, al alcance de un click.</p>
+<p>Tech Gym es una plataforma para reservas de diferentes tipos de clases a precios asequibles con una variedad de modalidades, relacionadas al ámbito deportivo. Esta fue diseñada pensando en aquell@s coders que buscan posibilidades u opciones de agregar algún tipo de actividad física o mental en sus vidas, al alcance de un click.</p>
 
-## 🛠️ Prototipo del proyecto
+## 🛠️ Prototipo del proyecto:
     
 ![Prototype](client/src/assets/Prototype/Home.png)
 ![Prototype](client/src/assets/Prototype/ProductGallery.png)
 ![Prototype](client/src/assets/Prototype/ProductDetails.png)
 ![Prototype](client/src/assets/Prototype/ContactForm.png)
 
-## ⚙️ Tecnologías utilizadas en el proyecto
-<ul>
-        <li>React</li>
+## ⚙️ Tecnologías utilizadas en el proyecto:
+
+<ul>    
+        <li>HTML</li>
+        <li>React JS</li>
         <li>Styled Components</li>
         <li>Node Js</li>
         <li>Json Server</li>
@@ -23,6 +33,7 @@
 </ul>
 
 ## 🔍 Instalación:
+
 <p>     *** Tener instalado el Visual Studio Code y el Node js</p>
     
 <ul>
@@ -41,7 +52,8 @@
 </ul>    
 
 
-## ✒️ Personas autoras
+## ✒️ Personas autoras:
+
 <ul>
         <li><a href="https://github.com/MBellJDD">Marybell José Díaz Díaz</a></li>
         <li><a href="https://github.com/Nereka38">Nerea Fernandez Cuesta</a></li>
