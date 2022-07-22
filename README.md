@@ -1,78 +1,53 @@
-# Getting Started with Create React App
+## 💻 Tech Gym 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-## Styled components
+![Logo](client/src/assets/logo.png)
+    
+## 💠 Introducción
 
-npm install --save styled-components
+<p>Tech Gym es una plataforma para reservas de diferentes tipos de clases a precios asequibles con una variedad de modalidades, relacionadas al ámbito deportivo. Esta fue diseñada pensando en aquellos coders que buscan posibilidades u opciones de agregar algún tipo de actividad física o mental en sus vidas, al alcance de un click.</p>
 
-## Icons
+## 🛠️ Prototipo del proyecto
+    
+![Prototype](client/src/assets/Prototype/Home.png)
+![Prototype](client/src/assets/Prototype/ProductGallery.png)
+![Prototype](client/src/assets/Prototype/ProductDetails.png)
+![Prototype](client/src/assets/Prototype/ContactForm.png)
 
-npm install react-icons --save
+## ⚙️ Tecnologías utilizadas en el proyecto
+<ul>
+        <li>React</li>
+        <li>Styled Components</li>
+        <li>Node Js</li>
+        <li>Json Server</li>
+        <li>Npm</li>
+</ul>
+
+## 🔍 Instalación:
+<p>     *** Tener instalado el Visual Studio Code y el Node js</p>
+    
+<ul>
+        <li>Clonamos el repositorio utilizamos el comando:</li>
+            <p>git clone https://github.com/PazManrique/Tech-Gym.git</p>
+        <li>Instalamos Node Package Manager: </li>
+            <p>npm install / npm i</p>
+        <li>Vizualizamos el proyecto ejecutando en un terminal integrado para:</li>
+            <p>📂 El "server" usando el comando:</p>
+                <p>npx json-server db.json --port 1234</p>
+            <p>Y</p>
+            <p>📂 El "client" usando el comanod:</p>
+                <p>npm start</p>
+        <li>Para correr los test usamos el comando:</li>
+            <p>npm run test</p>
+</ul>    
 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ✒️ Personas autoras
+<ul>
+        <li><a href="https://github.com/MBellJDD">Marybell José Díaz Díaz</a></li>
+        <li><a href="https://github.com/Nereka38">Nerea Fernandez Cuesta</a></li>
+        <li><a href="https://github.com/PMuin">Patricia Muiño Sánchez</a></li>
+        <li><a href="">Alicia Gárgoles</a></li>
+        <li><a href="https://github.com/PazManrique">Paz Manrique</a></li>
+        <li><a href="https://github.com/jilbosch">Joan Gil Bosch</a></li>
+        <li><a href="https://github.com/JcUrki">Jaciniris Bastardo</a></li>
+</ul>
